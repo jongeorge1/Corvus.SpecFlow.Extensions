@@ -17,5 +17,7 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
+    - name: Install latest Azure Functions V3 Runtime
+      run: npm install -g azure-functions-core-tools@3 --unsafe-perm true
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build ./Solutions/Corvus.SpecFlow.Extensions --configuration Release
