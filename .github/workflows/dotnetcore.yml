@@ -25,4 +25,4 @@ jobs:
       run: dotnet build .\Solutions\Corvus.SpecFlow.Extensions --configuration Release
 
     - name: Run executable specs
-      run: dotnet test .\Solutions\Corvus.SpecFlow.Extensions.sln --no-build --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura'
+      run: dotnet test .\Solutions\Corvus.SpecFlow.Extensions.sln --no-build --no-restore --verbosity detailed /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura'
