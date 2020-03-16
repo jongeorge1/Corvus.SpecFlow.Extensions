@@ -9,14 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvus.SpecFlow.Extensions.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{B5276693-CCCC-4EB4-AA78-909D9C5F656E}"
 	ProjectSection(SolutionItems) = preProject
-		..\azure-pipelines.release.yml = ..\azure-pipelines.release.yml
-		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		..\.github\workflows\dotnetcore.yml = ..\.github\workflows\dotnetcore.yml
 		..\imm.yaml = ..\imm.yaml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1929703E-1336-4E35-B360-339B4AE41BDF}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvus.SpecFlow.Extensions.DemoFunction", "Corvus.SpecFlow.Extensions.DemoFunction\Corvus.SpecFlow.Extensions.DemoFunction.csproj", "{144715F8-4260-40AE-9FCE-78DAA5238AC3}"

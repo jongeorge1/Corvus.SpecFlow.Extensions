@@ -1,7 +1,8 @@
 # Corvus.SpecFlow.Extensions
-[![Build Status](https://dev.azure.com/endjin-labs/Corvus.SpecFlow.Extensions/_apis/build/status/corvus-dotnet.Corvus.SpecFlow.Extensions?branchName=master)](https://dev.azure.com/endjin-labs/Corvus.SpecFlow.Extensions/_build/latest?definitionId=4&branchName=master)
+
+## NOTE: This is a fork of the original repo, created to demonstrate running integration tests against Azure Functions using GitHub Actions. It is not maintained in any way. Please see the original repo for the up-to-date code.
+
 [![GitHub license](https://img.shields.io/badge/License-Apache%202-blue.svg)](https://raw.githubusercontent.com/corvus-dotnet/Corvus.SpecFlow.Extensions/master/LICENSE)
-[![IMM](https://endimmfuncdev.azurewebsites.net/api/imm/github/corvus-dotnet/Corvus.SpecFlow.Extensions/total?cache=false)](https://endimmfuncdev.azurewebsites.net/api/imm/github/corvus-dotnet/Corvus.SpecFlow.Extensions/total?cache=false)
 
 This provides a library of useful SpecFlow.Extensions operations.
 
