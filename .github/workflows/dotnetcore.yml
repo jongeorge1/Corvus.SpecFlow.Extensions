@@ -25,4 +25,4 @@ jobs:
       run: dotnet build .\Solutions\Corvus.SpecFlow.Extensions --configuration Release
 
     - name: Run executable specs
-      run: dotnet test .\Solutions\Corvus.SpecFlow.Extensions.sln --no-build --no-restore --verbosity detailed
+      run: dotnet test .\Solutions\Corvus.SpecFlow.Extensions.sln --no-build --no-restore
