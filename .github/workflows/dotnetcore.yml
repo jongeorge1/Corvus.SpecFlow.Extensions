@@ -26,3 +26,6 @@ jobs:
 
     - name: Run executable specs
       run: dotnet test .\Solutions\Corvus.SpecFlow.Extensions.Specs\Corvus.SpecFlow.Extensions.Specs.csproj --configuration Release --no-build --no-restore
+
+    - name: Run demo executable specs
+      run: dotnet test .\Solutions\Corvus.SpecFlow.Extensions.Demo\Corvus.SpecFlow.Extensions.Demo.csproj --configuration Release --no-build --no-restore
